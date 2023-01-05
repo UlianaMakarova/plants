@@ -33,7 +33,7 @@
     height: 17px;
 
     left: 21.05px;
-    top: -11.96px;
+    top: 4.04px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -56,7 +56,7 @@
 
     top: 2.66px;
     
-    border: 1px solid #499A18;
+    border: 0px solid #499A18;
 }
 #vector2{
     position: absolute;
@@ -64,5 +64,84 @@
     height: 20px;
     left: 1px;
     
-    border: 1px solid #499A18;
+    border: 0px solid #499A18;
     }
+.welcome{
+    position: absolute;
+    width: 1440px;
+    height: 532px;
+    left: 0px;
+    top: 134px;
+    
+    background: #EDF2EC;
+    }
+.welcome_section{
+    position: absolute;
+    width: 1222px;
+    height: 407.36px;
+    left: 109px;
+    top: 62px;
+}
+.leafs{
+    position: absolute;
+    width: 448.8px;
+    height: 407.36px;
+}
+.leaf1{
+    position: absolute;
+    width: 81.23px;
+    height: 60.89px;
+    left: calc(366.93px - 109px);
+    top: calc(192.99px - 62.0px);
+
+    background: url(../assets/leafs/leaf1.png);
+    filter: blur(4.5px);
+    transform: matrix(-0.81, -0.56, 0.61, -0.81, 0, 0);
+}
+.leaf2{
+    position: absolute;
+    width: 245.31px;
+    height: 177.84px;
+    left: calc(128.22px - 109px);
+    top: calc(62.0px - 62.0px);
+
+
+    background: url(../assets/leafs/leaf2.png);
+    filter: blur(4.5px);
+    transform: matrix(0.99, -0.12, 0.13, 0.99, 0, 0);
+}
+.leaf3{
+    position: absolute;
+    width: 163.49px;
+    height: 141.86px;
+    left: calc(211.17px - 109px);
+    top: calc(400.74px - 62.0px);
+    
+    background: url(../assets/leafs/leaf3.png);
+    filter: blur(3.5px);
+    transform: matrix(0.51, -0.84, 0.89, 0.49, 0, 0);
+}
+.leaf4{
+    position: absolute;
+    width: 80.33px;
+    height: 61.57px;
+    left: calc(209.31px- 109px);
+    top: calc(300.14px - 62.0px);
+    
+    background: url(../assets/leafs/leaf4.png);
+
+    filter: blur(4.5px);
+    transform: matrix(-0.63, 0.75, -0.81, -0.62, 0, 0);
+}
+.leaf5{
+    position: absolute;
+    width: 120.93px;
+    height: 77.01px;
+    left: calc(535.71px - 109px);
+    top: calc(420.88px - 62.0px);
+    
+    background: url(../assets/leafs/leaf5.png);
+
+    filter: blur(2px);
+    transform: matrix(-0.96, -0.26, 0.29, -0.96, 0, 0);
+}
