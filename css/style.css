@@ -609,3 +609,40 @@
     left: 30.04px;
     top: calc(12px - 20px);
 }
+.price_section{
+    position: absolute;
+    width: 332px;
+    height: 391.01px;
+}
+.price_section .price_header{
+    position: absolute;
+    width: 135px;
+    height: 49px;
+    top: -40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+.price_item{
+    box-sizing: border-box;
+    position: absolute;
+    width: 332px;
+    height: 282.01px;
+    left: 0px;
+    top: 109px;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+.price_items{
+    position: absolute;
+    width: 250px;
+    height: 214.01px;
+    left: 41px;
+    top: 34px;
+}
