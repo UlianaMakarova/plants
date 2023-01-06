@@ -296,3 +296,68 @@
 
     color: #000000;
 }
+.about_block{
+    
+    position: absolute;
+    width: 1440px;
+    height: 666px;
+    left: 0px;
+    top: 666px;
+
+    background: #FFFFFF;
+}
+.about_section{
+    position: absolute;
+    width: 1222px;
+    height: 479px;
+    left: 109px;
+    top: 93px;
+}
+.about_img{
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    left: 867px;
+    top: 93px;
+
+    background: url(../assets/houseplant1.png);
+}
+.about_subblock{
+    position: absolute;
+    width: 605px;
+    height: 350px;
+    left: 109px;
+    top: 161px;
+}
+.about_header{
+    /* We are professional experienced gardeners */
+
+    position: absolute;
+    width: 463px;
+    height: 102px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    color: #499A18;
+}
+.about_text{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. */
+    position: absolute;
+    width: 605px;
+    height: 208px;
+
+    top: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    color: #636060;
+}
