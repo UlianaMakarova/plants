@@ -361,3 +361,172 @@
 
     color: #636060;
 }
+#service_block{    
+    position: absolute;
+    width: 1440px;
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+
+    background: #EDF2EC;
+}
+.service_content{
+    position: absolute;
+    width: 1007px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+}
+.service_content_text{
+    /* Service and our projects */
+    position: absolute;
+    width: 306px;
+    height: 94px;
+    top: -40px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    color: #499A18;
+}
+.service_btns{
+    position: absolute;
+    width: 559px;
+    height: 50px;
+    left: 448px;
+    top: 29px;
+
+}
+.btn{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #E06733;
+}
+.btn p{
+    position: absolute;
+    width: 81px;
+    height: 26px;
+    left: 40px;
+    top: calc(12px - 20px);
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #E06733;
+
+
+
+}
+#btn1{
+
+    position: absolute;
+    width: 161px;
+    height: 50px;
+}
+
+#btn2{
+    /* services btns */
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 199px;
+}
+#btn2 p{
+    width: 53px;
+    left: 54px;
+}
+#btn3{
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 398px;
+
+}
+.service_section{
+    position: absolute;
+    width: 1222px;
+    height: 955px;
+    left: 109px;
+    top: 224px;
+}
+
+.service_item{
+    position: absolute;
+    width: 330px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+
+}
+.service_item .rectangle{
+    
+    box-sizing: border-box;
+
+    position: relative;
+    top: 350px;
+    width: 330px;
+    height: 100px;
+  
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.service_item .header{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 105px;
+    top: 360px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+
+    color: #E06733;
+
+}
+.service_item .content{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 30.91px;
+    top: 394px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+
+    color: #717171;
+
+}
+#item1{
+    width: 330px;
+    height: 450px;
+
+    left: 109px;
+    top: 224px;
+}
+
+#item1 .img1{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+
+    background: url(../assets/services/first.png);
+    border-radius: 20px 20px 0px 0px;
+}
