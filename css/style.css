@@ -405,7 +405,7 @@
     border-radius: 5px;
     border: 1px solid #E06733;
 }
-.btn p{
+.btn .btn_text{
     position: absolute;
     width: 81px;
     height: 26px;
@@ -420,9 +420,6 @@
     /* identical to box height */
 
     color: #E06733;
-
-
-
 }
 #btn1{
 
@@ -557,4 +554,58 @@
 }
 #item6 #img6{
     background: url(../assets/services/sixth.png);
+}
+#price_block{
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    left: 0px;
+    top: 2630px;
+
+    background: #FFFFFF;
+}
+.price_wrapper{
+    position: absolute;
+    width: 1222px;
+    height: 405px;
+    left: 109px;
+    top: 40px;
+}
+.text_call_us{
+    position: absolute;
+    width: 452px;
+    height: 191.01px;
+    left: 770px;
+
+}
+.text_call_us p{
+    position: absolute;
+    width: 452px;
+    height: 103px;
+    top: -40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: right;
+
+    color: #000000;
+
+}
+#btn4{
+    position: absolute;
+    width: 162px;
+    height: 50px;
+    left: 290.0px;
+    top: 141.01px;
+}
+#btn4 .btn_text{
+    width: 98px;
+    height: 26px;
+    left: 30.04px;
+    top: calc(12px - 20px);
 }
