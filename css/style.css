@@ -227,3 +227,72 @@
     filter: blur(2px);
     transform: matrix(-0.96, -0.26, 0.29, -0.96, 0, 0);
 }
+.welcome_block{
+    position: absolute;
+    width: 549px;
+    height: 340px;
+    left: 782px;
+    top: 36px;
+}
+.welcome_header{
+    position: absolute;
+    width: 549px;
+    height: 101px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+
+    /* or 111% */
+
+    color: #717171;
+}
+.welcome_text{
+    position: absolute;
+    width: 525.44px;
+    height: 105px;
+    top: 143px;
+    left: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
+    color: #636060;
+}
+
+.welcome_button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    left: 0px;
+    top: 310px;
+
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+.welcome_button_text{
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 27px;
+    top: 310px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
