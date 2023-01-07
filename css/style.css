@@ -904,3 +904,91 @@ html {
     color: #000000;
 
 }
+.footer-data{
+    position: absolute;
+    height: 50px;
+}
+#footer-data1{
+    left: 0px;
+}
+#footer-data2{
+    left: 39px;
+}
+#footer-data3{
+    left: 108px;
+}
+.social-list{
+    position: absolute;
+    width: 188px;
+    height: 50px;
+    left: 1034px;
+    top: 0px;
+}
+.icon{    
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+#inst{
+    position: absolute;
+    left: 0px;
+    top: 9px;
+}
+.inst_icon{
+    position: absolute;
+    height: 26.65px;
+    width: 26.65px;
+
+    left: 2.66px;
+    top: 2.67px;
+
+    background: url(../assets/social_list/Vector.png);
+    background-size: cover;
+}
+
+#fb{
+    position: absolute;
+    left: 52px;
+    top: 9px;
+}
+#fb_icon{
+    position: absolute;
+    width: 16.67px;
+    height: 26.67px;
+    left: 8px;
+    top: 2.67px;
+
+    background: url(../assets/social_list/Vector\ \(1\).png);
+    background-size: cover;
+}
+
+#tw{
+    position: absolute;
+    left: 104px;
+    top: 9px;
+}
+#tw_icon{
+    position: absolute;
+    width: 26.67px;
+    height: 21.67px;
+    left: 2.67px;
+    top: 5.33px;
+
+    background: url(../assets/social_list/Vector\ \(2\).png);   
+    background-size: cover; 
+}
+#pinterest{
+    position: absolute;
+    left: 156px;
+    top: 9px;
+}
+#pinterest_icon{
+    position: absolute;
+    width: 26.57px;
+    height: 26.67px;
+
+    left: 2.71px;
+    top: 2.67px;
+    background: url(../assets/social_list/Vector\ \(3\).png); 
+    background-size: cover;
+}
