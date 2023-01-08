@@ -291,6 +291,7 @@ body{
 
     border: 2px solid #E06733;
     border-radius: 10px;
+    transition-duration: 0.4s;
 }
 .welcome_button .welcome_button_text{
     position: absolute;
@@ -312,6 +313,15 @@ body{
 
     color: #000000;
 }
+.welcome_button:hover{
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+.welcome_button_text:hover{
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+
 .about{
     
     position: absolute;
