@@ -1,6 +1,12 @@
+
 html {
     scroll-behavior: smooth;
   }
+body{
+    margin: 0;
+    padding: 0;
+
+}
 .header{
     position: absolute;
     width: 1440px;
@@ -234,13 +240,15 @@ html {
     position: absolute;
     width: 549px;
     height: 340px;
-    left: 782px;
+    left: 673px;
     top: 36px;
 }
 .welcome_header{
     position: absolute;
     width: 549px;
     height: 101px;
+    left: 0px;
+    top: -45px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -256,7 +264,7 @@ html {
     position: absolute;
     width: 525.44px;
     height: 105px;
-    top: 143px;
+    top: calc(143px - 20px);
     left: 0px;
 
     font-family: 'Inter';
@@ -269,22 +277,23 @@ html {
 }
 
 .welcome_button{
+
     box-sizing: border-box;
     position: absolute;
     width: 158px;
     height: 44px;
     left: 0px;
-    top: 310px;
+    top: 296px;
 
     border: 2px solid #E06733;
     border-radius: 10px;
 }
-.welcome_button_text{
+.welcome_button .welcome_button_text{
     position: absolute;
     width: 104px;
     height: 16px;
     left: 27px;
-    top: 310px;
+    top: calc(14px - 20px);
 
     font-family: 'Inter';
     font-style: normal;
