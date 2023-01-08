@@ -705,24 +705,15 @@ html {
     top: 6px;
 }
 
-.line2{
+.arrow_line{
     position: absolute;
-    width: 2px;
-    height: 2px;
-    left: 2px;
-    top: 0px;
-
-    border: 0.5px solid #717171;
-}
-.line1{
-    position: absolute;
-    width: 2.18px;
-    height: 1.8px;
+    width: 4px;
+    height: 2.35px;
     left: 0px;
     top: 0px;
     
-    border: 0.5px solid #717171;
-    transform: rotate(-95.53deg);    
+    background: url(../assets/arrow.svg);
+    background-size: cover;
 }
 #price_btn1{
     left: 0px;
