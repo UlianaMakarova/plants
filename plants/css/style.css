@@ -293,7 +293,7 @@ body{
     width: 104px;
     height: 16px;
     left: 27px;
-    top: calc(14px - 20px);
+    top: 14px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -422,7 +422,7 @@ body{
     width: 81px;
     height: 26px;
     left: 40px;
-    top: calc(12px - 20px);
+    top: 12px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -619,7 +619,7 @@ body{
     width: 98px;
     height: 26px;
     left: 30.04px;
-    top: calc(12px - 20px);
+    top: 12px;
 }
 .price_section{
     position: absolute;
