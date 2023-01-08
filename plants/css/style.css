@@ -46,7 +46,7 @@ body{
     color: #E06733;
 
 }
-.about{
+.about_nav{
     position: absolute;
     height: 50px;
     left: 90px;
@@ -61,7 +61,7 @@ body{
     color: #010201;
 
 }
-.service{
+.service_nav{
     position: absolute;
     height: 50px;
     left: 203px;
@@ -76,7 +76,7 @@ body{
     color: #010201;
 
 }
-.price{
+.price_nav{
     position: absolute;
     height: 50px;
     left: 304px;
@@ -91,7 +91,7 @@ body{
     color: #010201;
 
 }
-.contacts{
+.contacts_nav{
     position: absolute;
     height: 50px;
     left: 388px;
@@ -308,7 +308,7 @@ body{
 
     color: #000000;
 }
-.about_block{
+.about{
     
     position: absolute;
     width: 1440px;
@@ -373,7 +373,7 @@ body{
 
     color: #636060;
 }
-#service_block{    
+#service{    
     position: absolute;
     width: 1440px;
     height: 1300px;
@@ -567,7 +567,7 @@ body{
 #item6 #img6{
     background: url(../assets/services/sixth.png);
 }
-#price_block{
+#price{
     position: absolute;
     width: 1440px;
     height: 560px;
@@ -792,7 +792,7 @@ body{
     filter: blur(4.5px);
     transform: matrix(-0.62, 0.8, -0.76, -0.63, 0, 0);
 }
-#contact_block{
+#contact{
     position: absolute;
     width: 1440px;
     height: 550px;
@@ -801,7 +801,7 @@ body{
 
     background: #EDF2EC;
 }
-#contact_block .contact_block_header{
+#contact .contact_block_header{
     position: absolute;
     width: 195px;
     height: 51px;
