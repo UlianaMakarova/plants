@@ -3,9 +3,13 @@ html {
     scroll-behavior: smooth;
   }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    min-height: 134vh;
     margin: 0;
     padding: 0;
-
 }
 .header{
     position: absolute;
@@ -416,6 +420,7 @@ body{
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #E06733;
+    transition-duration: 0.4s;
 }
 .btn .btn_text{
     position: absolute;
@@ -432,6 +437,14 @@ body{
     /* identical to box height */
 
     color: #E06733;
+}
+.btn:hover{
+    background-color: #E06733;
+    color:#FFFFFF;
+}
+.btn .btn_text:hover{
+    color:#FFFFFF;
+
 }
 #btn1{
 
@@ -590,7 +603,7 @@ body{
     left: 770px;
 
 }
-.text_call_us p{
+.text_call_us .text_call_us_header{
     position: absolute;
     width: 452px;
     height: 103px;
@@ -887,17 +900,18 @@ body{
     top: 40px;
 
 }
-.footer_content p{
+.footer_content a{
     position: absolute;
     height: 50px;
     left: 506px;
-    top: calc(0px - 20px);
+    top: 0px;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
+    text-decoration: none;
     /* identical to box height, or 250% */
     
     
