@@ -1,14 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  } 
 html {
     scroll-behavior: smooth;
   }
-body{
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-    min-height: 134vh;
-    margin: 0;
-    padding: 0;
+    flex-wrap: wrap;
 }
 .header{
     position: absolute;
@@ -18,6 +19,7 @@ body{
     top: 0px;
 
     background: #EDF2EC;
+
 }
 .navbar{
     position: absolute;
@@ -380,7 +382,7 @@ ul{
     position: absolute;
     width: 306px;
     height: 94px;
-    top: -40px;
+    top: 0px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -589,7 +591,7 @@ ul{
     position: absolute;
     width: 452px;
     height: 103px;
-    top: -40px;
+    top: 0px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -625,7 +627,7 @@ ul{
     position: absolute;
     width: 135px;
     height: 49px;
-    top: -40px;
+    top: 0px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -673,7 +675,7 @@ ul{
     width: 100px;
     height: 18px;
     left: 40px;
-    top: calc(16px - 20px) ;
+    top: 16px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -845,7 +847,7 @@ ul{
     width: 204px;
     height: 40px;
     left: 20px;
-    top: calc(5px - 20px);
+    top: 5px;
 
     font-family: 'Inter';
     font-style: normal;
