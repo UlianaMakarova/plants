@@ -1,250 +1,101 @@
-* {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-  } 
+    border: none;
+}
 html {
     scroll-behavior: smooth;
   }
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
 .container{
-    max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
+    max-width: 1320px;
+    padding: 0 50px;
+  }
+  /* HEADER*/
 .header{
-    position: absolute;
-    width: 1440px;
-    height: 134px;
-    left: 0px;
-    top: 0px;
 
     background: #EDF2EC;
-
 }
 .navbar{
-    position: absolute;
-    width: 1220px;
-    height: 50px;
-    left: 111px;
-    top: 42px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 46px 0;
+	padding-left: 5px;
 }
-.nav{
-    position: absolute;
-    width: 452px;
-    height: 50px;
-    left: calc(879px - 111px);
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	column-gap: 46px;
+}
 
+.nav-link {
+	text-decoration: none;
+	color: #010201;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	transition: all 0.4s;
 }
-ul{
-    list-style: none;
-}
-.nav a{
 
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
-    text-decoration: none;
-    /* identical to box height, or 312% */
-
-    color: #010201;
+.nav-link:hover, .nav-link:focus, .logo:hover {
+	color: #E06733;
 }
-#home_id{
-    position: absolute;
-    height: 50px;
-    left: 0;
 
-    font-weight: 700;
-    color: #E06733;
+.nav-link:active, .logo:active {
+	color: #c5714d;
+}
 
-}
-.about_nav{
-    position: absolute;
-    height: 50px;
-    left: 90px;
-
-    color: #010201;
-
-}
-.service_nav{
-    position: absolute;
-    height: 50px;
-    left: 203px;
-
-}
-.price_nav{
-    position: absolute;
-    height: 50px;
-    left: 304px;
-
-}
-.contacts_nav{
-    position: absolute;
-    height: 50px;
-    left: 388px;
-}
-.logo{
-    position: absolute;
-    width: 79.17px;
-    height: 21.04px;
-    top: 10px;
-}
 .logo_text{
-    position: absolute;
-    width: 58.13px;
-    height: 17px;
-
-    left: 21.05px;
-    top: 4.04px;
-
-    font-family: 'Inika';
+    font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
+    color: #010201;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 31px;
     text-decoration: none;
-
-    color: #000000;
+    padding-left: 20px;
+    background: url(../assets/logo/logo_vector.svg) 0 0 no-repeat;
 }
-.logo_vector{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    }
-#vector1{
-    position: absolute;
-    width: 9.92px;
-    height: 17.28px;
-
-    top: 2.66px;
-    
-    border: 0px solid #499A18;
-}
-#vector2{
-    position: absolute;
-    width: 19px;
-    height: 20px;
-    left: 1px;
-    
-    border: 0px solid #499A18;
-    }
-.welcome{
-    position: absolute;
-    width: 1440px;
-    height: 532px;
-    left: 0px;
-    top: 134px;
-    
+/* END HEADER*/
+/* WELCOME SECTION*/
+.welcome_section{
+    padding-bottom: 33px;    
     background: #EDF2EC;
     }
-.welcome_section{
-    position: absolute;
-    width: 1222px;
-    height: 407.36px;
-    left: 109px;
-    top: 62px;
+.welcome_block{
+    display: flex;
+    justify-content: space-between;
 }
 .leafs{
-    position: absolute;
-    width: 448.8px;
-    height: 407.36px;
+    flex: 0 1 50%;
+    margin-right: 131px;
+    padding-top: 62px;
 }
-.leaf1{
-    position: absolute;
-    width: 81.23px;
-    height: 60.89px;
-    left: 257.93px;
-    top: 110.99px;
-
-    background: url(../assets/leafs/leaf1.png);
-    background-size: cover;
-    filter: blur(4.5px);
-    transform: matrix(-0.81, -0.56, 0.61, -0.81, 0, 0);
-}
-.leaf2{
-    position: absolute;
-    width: 245.31px;
-    height: 177.84px;
-    left: 19.22px;
-    top: 0px;
-
-
-    background: url(../assets/leafs/leaf2.png);
-    
-    background-size: cover;
-    filter: blur(4.5px);
-    transform: matrix(0.99, -0.12, 0.13, 0.99, 0, 0);
-}
-.leaf3{
-    position: absolute;
-    width: 163.49px;
-    height: 141.86px;
-    left: 102.17px;
-    top: 198.6px;
-    
-    background: url(../assets/leafs/leaf3.png);
-    background-size: cover;
-    filter: blur(3.5px);
-    transform: matrix(0.51, -0.84, 0.89, 0.49, 0, 0);
-}
-.leaf4{
-    position: absolute;
-    width: 80.33px;
-    height: 61.57px;
-    left: 0px;
-    top: 200.66px;
-    
-    background: url(../assets/leafs/leaf4.png);
-    background-size: cover;
-
-    filter: blur(4.5px);
-    transform: matrix(-0.63, 0.75, -0.81, -0.62, 0, 0);
-}
-.leaf5{
-    position: absolute;
-    width: 120.93px;
-    height: 77.01px;
-    left: 310.12px;
-    top: 253.0px;
-    
-    background: url(../assets/leafs/leaf5.png);
-    background-size: cover;
-
-    filter: blur(2px);
-    transform: matrix(-0.96, -0.26, 0.29, -0.96, 0, 0);
-}
-.welcome_block{
-    position: absolute;
-    width: 549px;
-    height: 340px;
-    left: 673px;
-    top: 36px;
+.welcome_content{
+    padding-top: 98px;
+    flex: 1 1 50%;
 }
 .welcome_header{
-    position: absolute;
-    width: 549px;
-    height: 101px;
-    left: 0px;
-    top: -45px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    line-height: 50px;
-
-    /* or 111% */
-
+    line-height: 50px; 
     color: #717171;
+    margin-bottom: 42px;
 }
 .welcome_text{
-    position: absolute;
-    width: 525.44px;
-    height: 105px;
-    top: calc(143px - 20px);
-    left: 0px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -252,90 +103,47 @@ ul{
     line-height: 35px;
     /* or 175% */
     color: #636060;
+    margin-bottom: 48px;
 }
-
 .welcome_button{
-
     box-sizing: border-box;
-    position: absolute;
-    width: 158px;
-    height: 44px;
-    left: 0px;
-    top: 296px;
-
     border: 2px solid #E06733;
     border-radius: 10px;
     transition-duration: 0.4s;
-}
-.welcome_button .welcome_button_text{
-    position: absolute;
-    width: 104px;
-    height: 16px;
-    left: 27px;
-    top: 14px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    /* or 125% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
+    padding: 14px 27px;
 
     color: #000000;
 }
+
 .welcome_button:hover{
     background-color: #E06733;
     color: #FFFFFF;
 }
-.welcome_button_text:hover{
-    background-color: #E06733;
-    color: #FFFFFF;
-}
-
+/* END WELCOME SECTION*/
+/* ABOUT SECTION*/
 .about{
-    
-    position: absolute;
-    width: 1440px;
-    height: 666px;
-    left: 0px;
-    top: 666px;
-
     background: #FFFFFF;
 }
-.about_section{
-    position: absolute;
-    width: 1222px;
-    height: 479px;
-    left: 109px;
-    top: 93px;
+.about_block{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
 }
 .about_img{
-    position: absolute;
-    width: 464px;
-    height: 479px;
-    left: 867px;
-    top: 93px;
-
-    background: url(../assets/houseplant1.png);
+    padding-top: 93px;
 }
-.about_subblock{
-    position: absolute;
-    width: 605px;
-    height: 350px;
-    left: 109px;
-    top: 161px;
+.about_content{
+    padding-top: 156px;
+    margin-right: 150px;
+    text-align: left;
 }
 .about_header{
-    /* We are professional experienced gardeners */
-
-    position: absolute;
-    width: 463px;
-    height: 102px;
-
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -345,13 +153,7 @@ ul{
     color: #499A18;
 }
 .about_text{
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. */
-    position: absolute;
-    width: 605px;
-    height: 208px;
-
-    top: 142px;
-
+    margin-top: 40px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
