@@ -129,7 +129,7 @@ body{
 }
 /* END WELCOME SECTION*/
 /* ABOUT SECTION*/
-.about{
+.about_section{
     background: #FFFFFF;
 }
 .about_block{
@@ -153,6 +153,7 @@ body{
     line-height: 52px;
 
     color: #499A18;
+    margin-right: 130px;
 }
 .about_text{
     margin-top: 40px;
@@ -165,29 +166,15 @@ body{
 
     color: #636060;
 }
-#service{    
-    position: absolute;
-    width: 1440px;
-    height: 1300px;
-    left: 0px;
-    top: 1332px;
-
+.service_section{    
     background: #EDF2EC;
 }
 .service_content{
-    position: absolute;
-    width: 1007px;
-    height: 94px;
-    left: 109px;
-    top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .service_content_text{
     /* Service and our projects */
-    position: absolute;
-    width: 306px;
-    height: 94px;
-    top: 0px;
-
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -197,9 +184,6 @@ body{
     color: #499A18;
 }
 .service_btns{
-    position: absolute;
-    width: 559px;
-    height: 50px;
     left: 448px;
     top: 29px;
 
@@ -209,13 +193,6 @@ body{
     border-radius: 5px;
     border: 1px solid #E06733;
     transition-duration: 0.4s;
-}
-.btn .btn_text{
-    position: absolute;
-    width: 81px;
-    height: 26px;
-    left: 40px;
-    top: 12px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -234,32 +211,7 @@ body{
     color:#FFFFFF;
 
 }
-#btn1{
-
-    position: absolute;
-    width: 161px;
-    height: 50px;
-}
-
-#btn2{
-    /* services btns */
-    position: absolute;
-    width: 161px;
-    height: 50px;
-    left: 199px;
-}
-#btn2 p{
-    width: 53px;
-    left: 54px;
-}
-#btn3{
-    position: absolute;
-    width: 161px;
-    height: 50px;
-    left: 398px;
-
-}
-.service_section{
+.service_sect{
     position: absolute;
     width: 1222px;
     height: 955px;
