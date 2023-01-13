@@ -83,8 +83,9 @@ body{
     padding-top: 62px;
 }
 .welcome_content{
-    padding-top: 98px;
-    flex: 1 1 50%;
+    padding-top: 89px;
+    padding-left: 80px;
+    flex: 1 1 100%;
 }
 .welcome_header{
     font-family: 'Inter';
@@ -107,6 +108,7 @@ body{
 }
 .welcome_button{
     box-sizing: border-box;
+    min-width: 158px;
     border: 2px solid #E06733;
     border-radius: 10px;
     transition-duration: 0.4s;
@@ -116,7 +118,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    padding: 14px 27px;
+    padding: 12px 27px;
 
     color: #000000;
 }
