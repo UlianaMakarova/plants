@@ -18,6 +18,28 @@ body{
     max-width: 1320px;
     padding: 0 50px;
   }
+  /* BUTTONS*/
+  .btn{
+	min-width: 161px;
+	border: 2px solid #E06733;
+	border-radius: 10px;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 14px 27px;
+
+	background-color: #EDF2EC;
+	transition: 0.4s;
+	line-height: 16px;
+	color: #E06733;
+	cursor: pointer;
+
+  }
+  .btn:hover{
+    background-color: #E06733;
+    color: #FFFFFF;
+  }
   /* HEADER*/
 .header{
 
@@ -106,15 +128,9 @@ body{
     color: #636060;
     margin-bottom: 48px;
 }
-.welcome_button{
-    box-sizing: border-box;
+#welcome_btn{
     min-width: 158px;
-    border: 2px solid #E06733;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -123,10 +139,6 @@ body{
     color: #000000;
 }
 
-.welcome_button:hover{
-    background-color: #E06733;
-    color: #FFFFFF;
-}
 /* END WELCOME SECTION*/
 /* ABOUT SECTION*/
 .about_section{
@@ -168,13 +180,23 @@ body{
 }
 .service_section{    
     background: #EDF2EC;
+    padding-bottom: 121px;
 }
 .service_content{
     display: flex;
+    max-width: 1007px;
+
     justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 0px 90px 0px;
+
+
 }
-.service_content_text{
+.service_content h2{
     /* Service and our projects */
+    flex-basis: 306px;
+
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -184,31 +206,11 @@ body{
     color: #499A18;
 }
 .service_btns{
-    left: 448px;
-    top: 29px;
-
-}
-.btn{
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid #E06733;
-    transition-duration: 0.4s;
-
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    /* identical to box height */
-
-    color: #E06733;
-}
-.btn:hover{
-    background-color: #E06733;
-    color:#FFFFFF;
-}
-.btn .btn_text:hover{
-    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-basis: 559px;
 
 }
 .service_sect{
@@ -623,7 +625,7 @@ body{
     left: 399px;
     top: 17px;
 }
-.footer-content{
+.footer_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -633,7 +635,7 @@ body{
 .footer-left{
     margin-right: 35px;
 }
-.footer-content a{
+.footer_content a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
