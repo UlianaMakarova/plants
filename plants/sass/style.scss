@@ -1,0 +1,18 @@
+@import "base/base";
+@import "abstract/constants";
+@import "abstract/placeholders";
+/*LAYOUTS*/
+@import "layouts/container";
+@import "layouts/header";
+@import "layouts/footer";
+/*COMPONENTS*/
+@import "components/welcome";
+@import "components/about_us";
+@import "components/services";
+@import "components/prices";
+@import "components/contacts";
+/* BUTTONS*/
+@import "base/buttons";
+@import "base/logo";
+
+/*# sourceMappingURL=style.scss.map */

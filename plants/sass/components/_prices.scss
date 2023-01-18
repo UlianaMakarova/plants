@@ -1,0 +1,110 @@
+
+.price_section {
+    background: $color-background-additional;
+  }
+  
+  .price_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 115px 0px;
+  }
+  
+  .price-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .price-right .price-text {
+    margin-left: 438px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    /* or 125% */
+    text-align: right;
+    color: $color-heading-additional;
+  }
+  
+  #price_btn {
+    margin: 39px 0px;
+    background-color: $color-background-additional;
+  }
+  
+  .price-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 48px;
+    color: $color-heading-additional;
+    margin-bottom: 60px;
+  }
+  
+  .price-form {
+    box-sizing: border-box;
+    border: 1px solid $color-form-border;
+    border-radius: 20px;
+    padding: 25px 41px;
+  }
+  
+  .price_btn_acc {
+    margin-bottom: 32px;
+  }
+  
+  .price_btn_acc:last-of-type {
+    margin-bottom: 0px;
+  }
+  
+  .btn_acc {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 20px;
+    color: $color-heading-additional;
+    background-color: $color-background-primary;
+    width: 250px;
+    border-radius: 20px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #D9D9D9;
+    border-radius: 100%;
+  }
+  
+  .arrow::before,
+  .arrow::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    width: 4px;
+    height: 1px;
+    background-color: $color-heading-primary;
+    border-radius: 1px;
+  }
+  
+  .arrow::after {
+    transform: rotate(45deg);
+    left: 5px;
+  }
+  
+  .arrow::before {
+    transform: rotate(-45deg);
+    right: 5px;
+  }
+  

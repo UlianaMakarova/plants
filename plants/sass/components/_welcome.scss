@@ -1,0 +1,53 @@
+.welcome_section {
+    padding-bottom: 33px;
+    background: $color-background-primary;
+  }
+  
+  .welcome_block {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leafs {
+    flex: 0 1 50%;
+    margin-right: 131px;
+    padding-top: 62px;
+  }
+  
+  .welcome_content {
+    padding-top: 89px;
+    padding-left: 80px;
+    flex: 1 1 100%;
+  }
+  
+  .welcome_header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 50px;
+    color: $color-heading-primary;
+    margin-bottom: 42px;
+  }
+  
+  .welcome_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 35px;
+    /* or 175% */
+    color: $color-text;
+    margin-bottom: 48px;
+  }
+  
+  #welcome_btn {
+    min-width: 158px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    padding: 12px 27px;
+    color: $color-heading-additional;
+  }
+  

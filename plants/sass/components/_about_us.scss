@@ -1,0 +1,41 @@
+.about_section {
+    background: $color-background-additional;
+  }
+  
+  .about_block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
+  }
+  
+  .about_img {
+    padding-top: 93px;
+  }
+  
+  .about_content {
+    padding-top: 156px;
+    margin-right: 150px;
+    text-align: left;
+  }
+  
+  .about_header {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 52px;
+    color: $color-primary;
+    margin-right: 130px;
+  }
+  
+  .about_text {
+    margin-top: 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;
+    /* or 150% */
+    color: $color-text;
+  }
+  
