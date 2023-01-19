@@ -26,6 +26,11 @@ body {
   max-width: 1320px;
   padding: 0 50px;
 }
+@media (max-width: 380px) {
+  .container {
+    padding: 0 25px;
+  }
+}
 
 .header {
   background: #EDF2EC;
@@ -488,6 +493,40 @@ body {
   line-height: 31px;
   text-decoration: none;
   padding-left: 20px;
+}
+
+.hamburger__line, .hamburger::after, .hamburger::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border: 2px solid #717171;
+  height: 0px;
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 24px;
+}
+@media (max-width: 380px) {
+  .hamburger {
+    display: inline-block;
+  }
+}
+.hamburger::before {
+  top: 0;
+  right: 0;
+}
+.hamburger::after {
+  bottom: 0;
+  right: 0;
+}
+
+.hamburger__line {
+  top: calc(50% - 1px);
+  right: 0;
 }
 
 /*# sourceMappingURL=style.scss.map */
