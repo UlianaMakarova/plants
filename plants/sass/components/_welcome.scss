@@ -1,6 +1,9 @@
 .welcome_section {
     padding-bottom: 33px;
     background: $color-background-primary;
+    @include media-tablet{
+      padding-bottom: 70px;
+    }
   }
   
   .welcome_block {
@@ -92,5 +95,11 @@
     line-height: 2.0rem;
     padding: 12px 27px;
     color: $color-heading-additional;
+    @include media-mobile{
+      min-width: 100px;
+      padding: 8px 18px;
+      font-size: 1.0rem;
+      line-height: 2.0rem;
+    }
   }
   

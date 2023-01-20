@@ -125,6 +125,11 @@ body {
   padding-bottom: 33px;
   background: #EDF2EC;
 }
+@media (max-width: 768px) {
+  .welcome_section {
+    padding-bottom: 70px;
+  }
+}
 
 .welcome_block {
   display: flex;
@@ -229,6 +234,14 @@ body {
   padding: 12px 27px;
   color: #000000;
 }
+@media (max-width: 380px) {
+  #welcome_btn {
+    min-width: 100px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
 
 .about_section {
   background: #FFFFFF;
@@ -252,6 +265,7 @@ body {
 @media (max-width: 768px) {
   .about_img {
     width: 250px;
+    padding-top: 40px;
   }
 }
 
@@ -262,6 +276,13 @@ body {
 }
 @media (max-width: 768px) {
   .about_content {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 380px) {
+  .about_content {
+    padding-top: 30px;
     margin: 0 auto;
   }
 }
@@ -284,6 +305,15 @@ body {
     line-height: 4.6rem;
   }
 }
+@media (max-width: 380px) {
+  .about_header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+  }
+}
 
 .about_text {
   margin-top: 40px;
@@ -291,9 +321,16 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 30px;
+  line-height: 3rem;
   /* or 150% */
   color: #636060;
+}
+@media (max-width: 380px) {
+  .about_text {
+    margin-top: 21px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 }
 
 .service_section {
