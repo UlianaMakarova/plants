@@ -4,10 +4,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
+    @include media-tablet{
+      flex-direction: column;
+      padding: 0;
+    }
   }
   
   .footer-left {
     margin-right: 15px;
+    @include media-tablet{
+      padding-top: 18px;
+      margin: 0;
+    }
+
   }
   
   .footer_content a {

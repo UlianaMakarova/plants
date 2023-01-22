@@ -4,6 +4,9 @@
     @include media-tablet{
       padding-bottom: 70px;
     }
+    @include media-mobile{
+      padding-bottom: 24px;
+    }
   }
   
   .welcome_block {
@@ -15,6 +18,7 @@
     flex: 0 1 50%;
     padding-right: 224px;
     padding-top: 62px;
+
     @include media-tablet{
       width: 280px;
       padding-top: 40px;
@@ -26,6 +30,7 @@
     }
 
   }
+
   .leafs__img{
     @include media-tablet{
       width: 280px;
@@ -97,6 +102,7 @@
     color: $color-heading-additional;
     @include media-mobile{
       min-width: 100px;
+      height: 34.14px;
       padding: 8px 18px;
       font-size: 1.0rem;
       line-height: 2.0rem;
