@@ -75,6 +75,9 @@
     @include media-tablet{
       row-gap: 38px;
     }
+    @include media-mobile{
+      row-gap: 34px;
+    }
   }
   
   .service_item {
@@ -97,7 +100,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.0rem;
     line-height: 2.0rem;
     /* or 100% */
     color: $color-additional;
