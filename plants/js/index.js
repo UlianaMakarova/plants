@@ -3,8 +3,6 @@ console.log('Максимальное количество баллов: 75\n');
 console.log('Невыполненные пункты:');
 console.log('Не успела к дедлайну выполнить адаптивное меню');
 }
-
-
 //Меню бургер открыть
 const iconMenu = document.querySelector('.hamburger');
 const menuBody = document.querySelector('.hamburger-nav');
@@ -22,7 +20,7 @@ const menuLinks = document.querySelectorAll('.hamburger-nav-link');
     });
     
     // Закрытие попапа при клике на меню
-    function closeOnClick() {
+   function closeOnClick() {
         iconMenu.classList.remove('_active');
         menuBody.classList.remove('_active');
     }

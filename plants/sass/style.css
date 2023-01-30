@@ -901,8 +901,12 @@ body {
   }
 }
 
+.hamburger-nav {
+  display: none;
+}
 @media (max-width: 380px) {
   .hamburger-nav {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -920,7 +924,7 @@ body {
 }
 
 @media (max-width: 380px) {
-  .hamburger-nav .hamburger-nav-list {
+  .hamburger-nav-list .hamburger-nav {
     display: flex;
     flex-direction: column;
     list-style-type: none;

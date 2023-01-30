@@ -8,7 +8,9 @@
     }
 }
 .hamburger-nav{
+    display: none;
     @include media-mobile{
+        display: block;
         position: fixed;
         top: 0;
         left: 0;
@@ -23,8 +25,7 @@
 .hamburger-nav._active {
     transform: translate(0px, 0px);
  }
- .hamburger-nav .hamburger-nav-list{
-
+ .hamburger-nav-list .hamburger-nav{
     @include media-mobile{
         display: flex;
         flex-direction: column;
@@ -35,7 +36,8 @@
 }
 
 .hamburger-nav-link{
-       @include media-mobile{
+
+    @include media-mobile{
         text-decoration: none;
         color: #010201;
         font-family: 'Inika';
